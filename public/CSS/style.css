@@ -1,0 +1,82 @@
+body {
+    max-height: 1366px;
+    
+    background-color: #ffcd4b;
+    font-family: Poppins, sans-serif;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 5% 20%;
+    box-shadow: 10px 10px 5px #5d5d5d75;
+    
+}
+
+.grid-item {
+    background-color: #ffcd4b;
+    width: 500px;
+    height: 425px;
+   
+    
+}
+
+.login {
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.login h1{
+    margin-bottom: 40px;
+}
+
+form label{
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 20px;
+   
+}
+
+input{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #ffcd4b;
+    outline: none;
+}
+
+.gambar-log h1{
+   margin-left: 50px;
+   margin-top: 30%;
+   font-size: 36pt;
+  
+}
+
+.gambar-log{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+button{
+    padding: 10px 50px;
+    background-color: #ffcd4b;
+    border: none;
+    margin-top: 30px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color: white;
+    border: 1px solid black;
+}
