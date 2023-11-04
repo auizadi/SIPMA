@@ -1,0 +1,38 @@
+body{
+    background-color: #ffc436;
+}
+
+
+.grid-container{
+    display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  justify-content: center;
+  
+  padding: 10px;
+}
+
+.grid-item{
+    margin-top: 100px;
+    padding: 20px;
+}
+
+p{
+ text-align: justify;
+}
+
+button{
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    font-weight: 700;
+    border: none;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
