@@ -11,20 +11,40 @@
 <body>
 
     
-    <h1>hello</h1>
+    <header class="header">
+        <a href="" class="logo">SIPMA</a>
+
+        <nav class="navbar">
+            <a href="">HOME</a>
+            <a href="">ABOUT</a>
+            <a href="">CONTACT</a>
+            <a href="">TUTORIAL</a>
+
+        </nav>
+    </header>
 
     <div class="grid-container">
-        <div class="grid-item">
-            <h1>SIPMA</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nesciunt magni repellat reiciendis neque voluptatem labore, repudiandae earum ducimus animi harum sit cumque ipsum? Saepe ut enim cumque quo. Excepturi?</p>
+        <div class="grid-item konten">
+            
+                <h1>SIPMA</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt recusandae voluptas eaque ut dolorem enim hic iure itaque blanditiis, nemo, veritatis, tempore saepe officiis sit perspiciatis minus ullam nesciunt accusantium repellat ipsa libero. Maxime nemo reiciendis, perspiciatis blanditiis deleniti a explicabo fugit suscipit dolor porro temporibus. Exercitationem quo alias culpa.</p>
             <br>
-            <button>LOGIN</button>
+                <div class="container-button">
+                <div class="item-button btn1">
+                    <button>LOGIN</button>
+                </div>
+                <div class="item-button btn2">
+                    <button>DAFTAR</button>
+                </div>
+
+            </div>
+            
+          </div>
+       
+        <div class="grid-item gambar">
+            <img src="{{ asset('img/sample.jpeg')  }}" alt="" width="500px">
         </div>
-        <div class="grid-item">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates labore commodi sit ipsam atque voluptas officia cumque est consequuntur. Aliquid quam, quis error doloribus a enim quae qui quisquam provident? Voluptate, nesciunt nam. Ipsa, iusto dolore perferendis modi alias veniam sapiente inventore, ipsum vero error at, magnam laudantium saepe dolorem eos! Vel quisquam tenetur odit alias, optio inventore unde itaque numquam magni earum laborum praesentium modi soluta quidem nostrum consectetur maxime atque autem eligendi, expedita similique impedit? Nihil maiores deleniti architecto temporibus, magni reiciendis debitis blanditiis excepturi veniam recusandae fugiat corrupti quidem vitae dolore commodi quis vel. Maiores, consectetur officiis?</p>
-        </div>
-    </div>
-    
+     
 </body>
 
 </html>
