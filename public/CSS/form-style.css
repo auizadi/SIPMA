@@ -1,0 +1,68 @@
+*{
+    font-family: Poppins,sans-serif;
+}
+
+body{
+    background-color: #ffc436;
+}
+
+.grid-container{
+    display: grid;
+    justify-content: center;
+}
+
+.grid-item{
+    background-color: white;
+    padding: 50px;
+    border-radius: 5px;
+    margin-top: 70px;
+}
+
+input{
+    padding: 5px 20px;
+    width: 350px;
+   
+}
+
+textarea{
+    height: 90px;
+    margin-top: -17px;
+    width: 372px;
+    padding: 5px 10px;
+   
+}
+
+select{
+    width: 395px;
+    padding: 5px 10px;
+}
+
+#file{
+    border: 1px black solid;
+    border-radius: 3px;
+    margin-top: 7px;
+    width: 355px;
+}
+
+#header{
+    background-color: #ffc436;
+    border: none;
+    
+}
+
+p{
+    width: 373px;
+    background-color: #ffc436;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+button{
+    width: 397px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #ffc436;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 4px;
+}
