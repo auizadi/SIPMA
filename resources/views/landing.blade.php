@@ -17,9 +17,8 @@
         <nav class="navbar">
             <a href="">HOME</a>
             <a href="">ABOUT</a>
-            <a href="">CONTACT</a>
             <a href="">TUTORIAL</a>
-
+            <a href="">CONTACT</a>
         </nav>
     </header>
 
@@ -34,7 +33,7 @@
                     <button>LOGIN</button>
                 </div>
                 <div class="item-button btn2">
-                    <button>DAFTAR</button>
+                  <a href="{{ route('user') }}"><button>DAFTAR </button></a>
                 </div>
 
             </div>

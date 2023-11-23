@@ -1,5 +1,5 @@
 body {
-    max-height: 1366px;
+    
     
     background-color: #ffcd4b;
     font-family: Poppins, sans-serif;
@@ -64,7 +64,7 @@ input{
     border-bottom-left-radius: 10px;
 }
 
-button{
+#button{
     padding: 10px 50px;
     background-color: #ffcd4b;
     border: none;
@@ -76,7 +76,7 @@ button{
 
 }
 
-button:hover{
+#button:hover{
     background-color: white;
     border: 1px solid black;
 }

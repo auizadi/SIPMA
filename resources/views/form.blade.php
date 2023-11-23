@@ -10,7 +10,7 @@
     <div class="grid-container">
         <div class="grid-item">
             <p>Tulis Laporan Disini</p>
-            <form action="">
+            <form action="" method="">
                 
                 <input type="text" placeholder="Masukkan Judul Laporan">
                 <br>
