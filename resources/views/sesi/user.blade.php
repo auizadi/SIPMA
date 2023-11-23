@@ -14,13 +14,17 @@
   </div>
   <div class="grid-item login">
     <h1>Login</h1>
-    <form action="">
-      <label for="">Email</label>
-      <input type="text" name="" id="" placeholder="Masukkan Email">
-      <label for="">Password</label>
-      <input type="password" name="" id="" placeholder="Masukkan Password">
+    
+    <form action="" method="POST">
+      @csrf
+      <label for="email">Email</label>
+      <input type="email" name="email" id="" placeholder="Masukkan Email" required>
+      <label for="password">Password</label>
+      <input type="password" name="password" id="" placeholder="Masukkan Password" required>
+      <br>
+      <button type="submit" name="submit" id="button" >Login</button>
     </form>
-    <button>Login</button>
+    
   </div>
 </div>
 

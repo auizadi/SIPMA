@@ -1,5 +1,9 @@
 <?php
 
+use App\Http\Controllers\AuthController;
+
+use App\Http\Controllers\MahasiswaController;
+
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -12,19 +16,16 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-Route::get('/', function () {
-    return view('landing');
-});
 
-Route::get('/user', function () {
-    return view('registrasi');
-});
+// Route::get('/user', function(){
+//     return view('user');
+// })->name('user');
 
-Route::get('/daftar', function(){
-    return view('daftar');
-});
 
-Route::get('/form', function(){
-    return view('form');
-});
+Route::get('/',[MahasiswaController::class, 'index']);
+
+
+Route::get('/sesi', [AuthController::class, 'index'])->name('user');
+Route::post('/login', [AuthController::class, 'loginMhs'])->name('loginMhs');
+
 
